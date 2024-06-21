@@ -1,0 +1,265 @@
+[
+  {
+    "name": "Joyroad Tour RX1",
+    "image": "https://bishkek.ship-ship.ru/upload/resize_cache/iblock/ef1/300_300_0/btzcp16so5o5hyaz201uwaiv53825zgs.jpeg",
+    "price": 80,
+    "description": "Шины Joyroad Tour RX1 145/70 R12 69T разработаны для тех, кто ценит безопасность, комфорт и экономичность. Эти шины прекрасно справляются с любыми дорожными условиями, обеспечивая высокую производительность и надежность. Идеально подходят для ежедневной эксплуатации в городских и загородных условиях.",
+    "id": 1,
+    "categoryId": 1,
+    "categoryName": "Summer tires",
+    "discount": 5,
+    "stock": 30,
+    "status": "available"
+  },
+  {
+    "name": "Sunfull SF-688",
+    "image": "https://bishkek.ship-ship.ru/upload/resize_cache/iblock/bc8/300_300_0/jpwukpx343els8t1674odszmviy0o3qy.jpg",
+    "price": 90,
+    "description": "Шины Sunfull SF-688 145/70 R12 69T представляют собой высококачественные летние шины, разработанные для обеспечения надежной и комфортной езды. Эти шины идеально подходят для легковых автомобилей, предоставляя отличные эксплуатационные характеристики и долговечность.",
+    "id": 2,
+    "categoryId": 1,
+    "categoryName": "Summer tires",
+    "discount": 5,
+    "stock": 12,
+    "status": "available"
+  },
+  {
+    "name": "Joyroad Tour RX1",
+    "image": "https://bishkek.ship-ship.ru/upload/resize_cache/iblock/ef1/300_300_0/btzcp16so5o5hyaz201uwaiv53825zgs.jpeg",
+    "price": 90,
+    "description": "Шины Joyroad Tour RX1 155/65 R13 73T представляют собой высококачественные летние шины, предназначенные для легковых автомобилей. Эти шины разработаны с использованием передовых технологий, что обеспечивает оптимальное сцепление, комфорт и надежность при любых дорожных условиях.",
+    "id": 3,
+    "categoryId": 1,
+    "categoryName": "Summer tires",
+    "discount": 5,
+    "stock": 32,
+    "status": "available"
+  },
+  {
+    "name": "Rapid P309",
+    "image": "https://bishkek.ship-ship.ru/upload/resize_cache/iblock/171/300_300_0/171deb2f83479017656b4db9c3093fea.jpg",
+    "price": 100,
+    "description": "Шины Rapid P309 155/65 R13 73T разработаны для обеспечения высокого уровня комфорта и безопасности на дороге. Эти шины прекрасно справляются с любыми дорожными условиями, обеспечивая стабильность и надежность в летний период. Современный дизайн и передовые технологии производства делают эти шины идеальным выбором для ежедневной эксплуатации в городских и загородных условиях.",
+    "id": 4,
+    "categoryId": 1,
+    "categoryName": "Summer tires",
+    "discount": 5,
+    "stock": 32,
+    "status": "available"
+  },
+  {
+    "name": "Marshal MH12",
+    "image": "https://bishkek.ship-ship.ru/upload/resize_cache/iblock/667/300_300_0/t0ih2ifto4cvufb5cwl7s0etsl624hih.jpg",
+    "price": 100,
+    "description": "Шины Marshal MH12 145/70 R13 71T - это высококачественные всесезонные шины, разработанные для обеспечения надежности и комфорта при вождении в различных погодных условиях. Эти шины подходят для легковых автомобилей, обеспечивая отличные эксплуатационные характеристики и долговечность. Модель 2021 года и новее включает улучшенные технологии и материалы для еще большей эффективности.",
+    "id": 5,
+    "categoryId": 1,
+    "categoryName": "Summer tires",
+    "discount": 5,
+    "stock": 24,
+    "status": "available"
+  },
+  {
+    "name": "LingLong Green-Max Eco Touring",
+    "image": "https://bishkek.ship-ship.ru/upload/resize_cache/iblock/fe4/300_300_0/gqbknpuwo60mbsodd3vjtb47tjnra0vt.png",
+    "price": 100,
+    "description": "Шины LingLong Green-Max Eco Touring 145/70 R12 69S - это высококачественные летние шины, разработанные для обеспечения максимальной экономичности и комфортного вождения. Эти шины подходят для легковых автомобилей, обеспечивая отличные эксплуатационные характеристики и долговечность.",
+    "id": 6,
+    "categoryId": 1,
+    "categoryName": "Summer tires",
+    "discount": 5,
+    "stock": 32,
+    "status": "available"
+  },
+  {
+    "name": "Ovation VI-682 Ecovision",
+    "image": "https://bishkek.ship-ship.ru/upload/resize_cache/iblock/2e1/300_300_0/u0t7cs2wqjk8liwtriop90n0fk0hm2l4.jpg",
+    "price": 130,
+    "description": "Шины Ovation VI-682 Ecovision 145/70 R12 69T - это высококачественные всесезонные шины, разработанные для обеспечения надежного сцепления и комфорта при вождении в различных погодных условиях. Эти шины подходят для легковых автомобилей и предлагают отличные эксплуатационные характеристики и долговечность.",
+    "id": 7,
+    "categoryId": 1,
+    "categoryName": "Summer tires",
+    "discount": 5,
+    "stock": 16,
+    "status": "available"
+  },
+  {
+    "name": "Atlander AX77",
+    "image": "https://bishkek.ship-ship.ru/upload/resize_cache/iblock/6d9/300_300_0/a330md23kd7xrt9zz2aepmzp60t32e0f.webp",
+    "price": 140,
+    "description": "Шины Atlander AX77 165/70 R14 85T XL - это высококачественные летние шины, разработанные для обеспечения безопасности, комфорта и долговечности при вождении. Эти шины подходят для легковых автомобилей и предлагают отличные эксплуатационные характеристики в теплое время года.",
+    "id": 8,
+    "categoryId": 1,
+    "categoryName": "Summer tires",
+    "discount": 5,
+    "stock": 40,
+    "status": "available"
+  },
+  {
+    "name": "Kapsen HD918 Summer H/P",
+    "image": "https://bishkek.ship-ship.ru/upload/resize_cache/iblock/35b/300_300_0/05suq0oks9ukoh0v5d1jekrhyf9yl1s7.jpg",
+    "price": 140,
+    "description": "Шины Kapsen HD918 Summer H/P 155/65 R14 75T - это высококачественные летние шины, созданные для обеспечения максимальной производительности и безопасности на дорогах в теплое время года. Эти шины подходят для легковых автомобилей, предлагая отличные эксплуатационные характеристики и надежность.",
+    "id": 9,
+    "categoryId": 1,
+    "categoryName": "Summer tires",
+    "discount": 5,
+    "stock": 40,
+    "status": "available"
+  },
+  {
+    "name": "Compasal Blazer HP",
+    "image": "https://bishkek.ship-ship.ru/upload/resize_cache/iblock/832/300_300_0/hgqeh8nz52vfhkys4dom3wli6q7qurlf.jpg",
+    "price": 150,
+    "description": "Шины Compasal Blazer HP 195/60 R15 88H - это высококачественные летние шины, разработанные для обеспечения максимальной производительности и комфорта при вождении. Эти шины подходят для легковых автомобилей, обеспечивая отличные эксплуатационные характеристики и долговечность.",
+    "id": 10,
+    "categoryId": 1,
+    "categoryName": "Summer tires",
+    "discount": 5,
+    "stock": 56,
+    "status": "available"
+  },
+
+
+
+  {
+    "name": "Tunga Nordway 2",
+    "image": "https://bishkek.ship-ship.ru/upload/resize_cache/iblock/b02/300_300_0/io4flo86dz2o602gsua902rx3wtrixim.jpg",
+    "price": 75,
+    "description": "Шины Tunga Nordway 2 175/65 R14 82Q - это надежные зимние шины, специально разработанные для обеспечения безопасности и комфорта при вождении в холодное время года. Эти шины подходят для легковых автомобилей и обеспечивают отличное сцепление на заснеженных и ледяных дорогах.",
+    "id": 11,
+    "categoryId": 2,
+    "categoryName": "Winter tires",
+    "discount": 5,
+    "stock": 35,
+    "status": "available"
+  },
+  {
+    "name": "Ovation W588",
+    "image": "https://bishkek.ship-ship.ru/upload/resize_cache/iblock/75b/300_300_0/vkqx8aq4uds1pbfx1mp7q66r8jf699w5.jpg",
+    "price": 80,
+    "description": "Шины Ovation W588 145/70 R12 69T - это высококачественные зимние шины, разработанные для обеспечения надежного сцепления и безопасности на зимних дорогах. Эти шины подходят для легковых автомобилей и обеспечивают превосходные эксплуатационные характеристики в сложных зимних условиях.",
+    "id": 12,
+    "categoryId": 2,
+    "categoryName": "Winter tires",
+    "discount": 5,
+    "stock": 120,
+    "status": "available"
+  },
+  {
+    "name": "Ovation W586",
+    "image": "https://bishkek.ship-ship.ru/upload/resize_cache/iblock/ad0/300_300_0/juiv3wq8g4o1crpwidgx0tvh39v5on8l.jpg",
+    "price": 70,
+    "description": "Шины Ovation W586 145/70 R12 69T представляют собой надежные зимние шины, созданные для обеспечения безопасности и комфорта при вождении в зимних условиях. Эти шины подходят для легковых автомобилей, предлагая отличное сцепление и стабильность на заснеженных и ледяных дорогах.",
+    "id": 13,
+    "categoryId": 2,
+    "categoryName": "Winter tires",
+    "discount": 5,
+    "stock": 80,
+    "status": "available"
+  },
+  {
+    "name": "Sunfull SF-982",
+    "image": "https://bishkek.ship-ship.ru/upload/resize_cache/iblock/880/300_300_0/880b8d19e0513844a29493c184c4a83d.jpg",
+    "price": 60,
+    "description": "Шины Sunfull SF-982 145/70 R12 69T - это высококачественные зимние шины, предназначенные для легковых автомобилей. Эти шины обеспечивают отличное сцепление и управляемость на заснеженных и ледяных дорогах, что делает их идеальным выбором для зимних условий вождения.",
+    "id": 14,
+    "categoryId": 2,
+    "categoryName": "Winter tires",
+    "discount": 5,
+    "stock": 45,
+    "status": "available"
+  },
+  {
+    "name": "CST Medallion Winter WCP1",
+    "image": "https://bishkek.ship-ship.ru/upload/resize_cache/iblock/5f8/300_300_0/ctjrjdc77nwgr8gc9i2dotez89gocil2.jpg",
+    "price": 90,
+    "description": "Шины CST Medallion Winter WCP1 155/65 R13 73T - это высококачественные зимние шины, созданные для обеспечения безопасности и комфорта на зимних дорогах. Эти шины подходят для легковых автомобилей и обеспечивают отличное сцепление и управляемость в сложных зимних условиях.",
+    "id": 15,
+    "categoryId": 2,
+    "categoryName": "Winter tires",
+    "discount": 5,
+    "stock": 150,
+    "status": "available"
+  },
+  {
+    "name": "",
+    "image": "",
+    "price": 22,
+    "description": "",
+    "id": 16,
+    "categoryId": 2,
+    "categoryName": "",
+    "discount": 5,
+    "stock": 1,
+    "status": ""
+  },
+  {
+    "name": "",
+    "image": "",
+    "price": 22,
+    "description": "",
+    "id": 17,
+    "categoryId": 2,
+    "categoryName": "",
+    "discount": 5,
+    "stock": 1,
+    "status": ""
+  },
+  {
+    "name": "",
+    "image": "",
+    "price": 22,
+    "description": "",
+    "id": 18,
+    "categoryId": 2,
+    "categoryName": "",
+    "discount": 5,
+    "stock": 1,
+    "status": ""
+  },
+  {
+    "name": "",
+    "image": "",
+    "price": 22,
+    "description": "",
+    "id": 19,
+    "categoryId": 2,
+    "categoryName": "",
+    "discount": 5,
+    "stock": 1,
+    "status": ""
+  },
+  {
+    "name": "",
+    "image": "",
+    "price": 22,
+    "description": "",
+    "id": 20,
+    "categoryId": 2,
+    "categoryName": "",
+    "discount": 5,
+    "stock": 1,
+    "status": ""
+  },
+
+
+
+
+
+
+
+
+  {
+    "name": "",
+    "image": "",
+    "price": 22,
+    "description": "",
+    "id": 16,
+    "categoryId": 2,
+    "categoryName": "",
+    "discount": 5,
+    "stock": 1,
+    "status": ""
+  }
+]

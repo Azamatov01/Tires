@@ -1,0 +1,352 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.final_project"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:5:5-76
+11-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:5:22-74
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <!-- See https://developer.android.com/training/package-visibility/declaring for more details. -->
+15    <queries>
+15-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:10:5-14:15
+16
+17        <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+18        <package android:name="com.android.chrome" />
+18-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:13:9-54
+18-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:13:18-51
+19    </queries> <!-- Include required permissions for Google Maps API to run. -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Azama\.gradle\caches\transforms-3\9a13d849d4c351850a33c7fe29d4e93a\transformed\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Azama\.gradle\caches\transforms-3\9a13d849d4c351850a33c7fe29d4e93a\transformed\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Azama\.gradle\caches\transforms-3\9a13d849d4c351850a33c7fe29d4e93a\transformed\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Azama\.gradle\caches\transforms-3\9a13d849d4c351850a33c7fe29d4e93a\transformed\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Azama\.gradle\caches\transforms-3\9a13d849d4c351850a33c7fe29d4e93a\transformed\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+25
+26    <application
+26-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:8:5-54:19
+27        android:allowBackup="true"
+27-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:9:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.7.0] C:\Users\Azama\.gradle\caches\transforms-3\0212d0c0c0b99c5d00c15a82a811f4d1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:10:9-43
+32        android:label="@string/app_name"
+32-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:11:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:12:9-54
+34        android:supportsRtl="true"
+34-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:13:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.Final_Project"
+36-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:14:9-51
+37        android:usesCleartextTraffic="true" >
+37-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:15:9-44
+38        <activity
+38-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:16:9-18:40
+39            android:name="com.example.final_project.activities.PaymentGateway"
+39-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:17:13-54
+40            android:exported="false" />
+40-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:18:13-37
+41        <activity
+41-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:19:9-22:68
+42            android:name="com.example.final_project.activities.SearchActivity"
+42-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:20:13-54
+43            android:exported="false"
+43-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:21:13-37
+44            android:theme="@style/Theme.Final_Project.Actionbar" />
+44-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:22:13-65
+45        <activity
+45-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:23:9-26:68
+46            android:name="com.example.final_project.activities.CategoryActivity"
+46-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:24:13-56
+47            android:exported="false"
+47-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:25:13-37
+48            android:theme="@style/Theme.Final_Project.Actionbar" />
+48-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:26:13-65
+49        <activity
+49-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:27:9-31:68
+50            android:name="com.example.final_project.activities.CheckoutActivity"
+50-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:28:13-56
+51            android:exported="false"
+51-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:29:13-37
+52            android:label="Checkout"
+52-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:30:13-37
+53            android:theme="@style/Theme.Final_Project.Actionbar" />
+53-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:31:13-65
+54        <activity
+54-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:32:9-36:68
+55            android:name="com.example.final_project.activities.CartActivity"
+55-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:33:13-52
+56            android:exported="false"
+56-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:34:13-37
+57            android:label="Shopping Cart"
+57-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:35:13-42
+58            android:theme="@style/Theme.Final_Project.Actionbar" />
+58-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:36:13-65
+59        <activity
+59-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:37:9-40:68
+60            android:name="com.example.final_project.activities.ProductDetailActivity"
+60-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:38:13-61
+61            android:exported="false"
+61-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:39:13-37
+62            android:theme="@style/Theme.Final_Project.Actionbar" />
+62-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:40:13-65
+63        <activity
+63-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:41:9-49:20
+64            android:name="com.example.final_project.activities.MainActivity"
+64-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:42:13-52
+65            android:exported="true" >
+65-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:43:13-36
+66            <intent-filter>
+66-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:44:13-48:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:45:17-69
+67-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:45:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:47:17-77
+69-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:47:27-74
+70            </intent-filter>
+71        </activity>
+72
+73        <meta-data
+73-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:51:9-53:57
+74            android:name="preloaded_fonts"
+74-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:52:13-43
+75            android:resource="@array/preloaded_fonts" />
+75-->C:\Users\Azama\AndroidStudioProjects\AndroidStudio_Ecommerce\app\src\main\AndroidManifest.xml:53:13-54
+76
+77        <activity
+77-->[com.stripe:paymentsheet:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\fddb7b66086bffacdd8b375ac7d56851\transformed\paymentsheet-17.2.0\AndroidManifest.xml:10:9-13:69
+78            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+78-->[com.stripe:paymentsheet:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\fddb7b66086bffacdd8b375ac7d56851\transformed\paymentsheet-17.2.0\AndroidManifest.xml:11:13-80
+79            android:exported="false"
+79-->[com.stripe:paymentsheet:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\fddb7b66086bffacdd8b375ac7d56851\transformed\paymentsheet-17.2.0\AndroidManifest.xml:12:13-37
+80            android:theme="@style/StripePaymentSheetDefaultTheme" />
+80-->[com.stripe:paymentsheet:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\fddb7b66086bffacdd8b375ac7d56851\transformed\paymentsheet-17.2.0\AndroidManifest.xml:13:13-66
+81        <activity
+81-->[com.stripe:paymentsheet:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\fddb7b66086bffacdd8b375ac7d56851\transformed\paymentsheet-17.2.0\AndroidManifest.xml:14:9-17:69
+82            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+82-->[com.stripe:paymentsheet:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\fddb7b66086bffacdd8b375ac7d56851\transformed\paymentsheet-17.2.0\AndroidManifest.xml:15:13-82
+83            android:exported="false"
+83-->[com.stripe:paymentsheet:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\fddb7b66086bffacdd8b375ac7d56851\transformed\paymentsheet-17.2.0\AndroidManifest.xml:16:13-37
+84            android:theme="@style/StripePaymentSheetDefaultTheme" />
+84-->[com.stripe:paymentsheet:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\fddb7b66086bffacdd8b375ac7d56851\transformed\paymentsheet-17.2.0\AndroidManifest.xml:17:13-66
+85        <activity
+85-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:17:9-20:57
+86            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+86-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:18:13-76
+87            android:exported="false"
+87-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:19:13-37
+88            android:theme="@style/StripeDefaultTheme" />
+88-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:20:13-54
+89        <activity
+89-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:21:9-24:57
+90            android:name="com.stripe.android.view.PaymentMethodsActivity"
+90-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:22:13-74
+91            android:exported="false"
+91-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:23:13-37
+92            android:theme="@style/StripeDefaultTheme" />
+92-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:24:13-54
+93        <activity
+93-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:25:9-28:57
+94            android:name="com.stripe.android.view.PaymentFlowActivity"
+94-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:26:13-71
+95            android:exported="false"
+95-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:27:13-37
+96            android:theme="@style/StripeDefaultTheme" />
+96-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:28:13-54
+97        <activity
+97-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:29:9-33:58
+98            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+98-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:30:13-78
+99            android:exported="false"
+99-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:31:13-37
+100            android:theme="@style/StripeDefaultTheme"
+100-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:32:13-54
+101            android:windowSoftInputMode="adjustResize" />
+101-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:33:13-55
+102        <activity
+102-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:34:9-37:61
+103            android:name="com.stripe.android.view.PaymentRelayActivity"
+103-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:35:13-72
+104            android:exported="false"
+104-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:36:13-37
+105            android:theme="@style/StripeTransparentTheme" />
+105-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:37:13-58
+106        <!--
+107        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+108        launched the browser Activity will also handle the return URL deep link.
+109        -->
+110        <activity
+110-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:43:9-60:20
+111            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+111-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:44:13-85
+112            android:exported="true"
+112-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:45:13-36
+113            android:launchMode="singleTask"
+113-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:46:13-44
+114            android:theme="@style/StripeTransparentTheme" >
+114-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:47:13-58
+115            <intent-filter>
+115-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:48:13-59:29
+116                <action android:name="android.intent.action.VIEW" />
+116-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:49:17-69
+116-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:49:25-66
+117
+118                <category android:name="android.intent.category.DEFAULT" />
+118-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:51:17-76
+118-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:51:27-73
+119                <category android:name="android.intent.category.BROWSABLE" />
+119-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:52:17-78
+119-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:52:27-75
+120
+121                <!-- Must match `DefaultReturnUrl#value`. -->
+122                <data
+122-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:55:17-58:50
+123                    android:host="payment_return_url"
+123-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:56:21-54
+124                    android:path="/com.example.final_project"
+124-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:57:21-53
+125                    android:scheme="stripesdk" />
+125-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:58:21-47
+126            </intent-filter>
+127        </activity>
+128        <activity
+128-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:61:9-64:57
+129            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+129-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:62:13-114
+130            android:exported="false"
+130-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:63:13-37
+131            android:theme="@style/StripeDefaultTheme" />
+131-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:64:13-54
+132        <activity
+132-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:65:9-68:66
+133            android:name="com.stripe.android.googlepaylauncher.StripeGooglePayActivity"
+133-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:66:13-88
+134            android:exported="false"
+134-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:67:13-37
+135            android:theme="@style/StripeGooglePayDefaultTheme" />
+135-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:68:13-63
+136        <activity
+136-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:69:9-72:66
+137            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+137-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:70:13-90
+138            android:exported="false"
+138-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:71:13-37
+139            android:theme="@style/StripeGooglePayDefaultTheme" />
+139-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:72:13-63
+140        <activity
+140-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:73:9-76:66
+141            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+141-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:74:13-103
+142            android:exported="false"
+142-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:75:13-37
+143            android:theme="@style/StripeGooglePayDefaultTheme" />
+143-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:76:13-63
+144        <activity
+144-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:77:9-80:62
+145            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+145-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:78:13-107
+146            android:exported="false"
+146-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:79:13-37
+147            android:theme="@style/PayLauncherDefaultTheme" />
+147-->[com.stripe:payments-core:17.2.0] C:\Users\Azama\.gradle\caches\transforms-3\5ac92a2e45ecd568bc1c4cb6b644563e\transformed\payments-core-17.2.0\AndroidManifest.xml:80:13-59
+148        <activity
+148-->[com.stripe:stripe-3ds2-android:6.1.2] C:\Users\Azama\.gradle\caches\transforms-3\dc2906330ff23bea6f939ee4cbc6b105\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:10:9-13:54
+149            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+149-->[com.stripe:stripe-3ds2-android:6.1.2] C:\Users\Azama\.gradle\caches\transforms-3\dc2906330ff23bea6f939ee4cbc6b105\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:11:13-81
+150            android:exported="false"
+150-->[com.stripe:stripe-3ds2-android:6.1.2] C:\Users\Azama\.gradle\caches\transforms-3\dc2906330ff23bea6f939ee4cbc6b105\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:12:13-37
+151            android:theme="@style/Stripe3DS2Theme" /> <!-- Needs to be explicitly declared on P+ -->
+151-->[com.stripe:stripe-3ds2-android:6.1.2] C:\Users\Azama\.gradle\caches\transforms-3\dc2906330ff23bea6f939ee4cbc6b105\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:13:13-51
+152        <uses-library
+152-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Azama\.gradle\caches\transforms-3\9a13d849d4c351850a33c7fe29d4e93a\transformed\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+153            android:name="org.apache.http.legacy"
+153-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Azama\.gradle\caches\transforms-3\9a13d849d4c351850a33c7fe29d4e93a\transformed\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+154            android:required="false" />
+154-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Azama\.gradle\caches\transforms-3\9a13d849d4c351850a33c7fe29d4e93a\transformed\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+155
+156        <activity
+156-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Azama\.gradle\caches\transforms-3\9302f9e461ea3508f2fdb1e1124e16a2\transformed\play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+157            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+157-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Azama\.gradle\caches\transforms-3\9302f9e461ea3508f2fdb1e1124e16a2\transformed\play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Azama\.gradle\caches\transforms-3\9302f9e461ea3508f2fdb1e1124e16a2\transformed\play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Azama\.gradle\caches\transforms-3\9302f9e461ea3508f2fdb1e1124e16a2\transformed\play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+160
+161        <meta-data
+161-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Azama\.gradle\caches\transforms-3\5fd96a2630d7756049a5bad5abac1a6d\transformed\play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+162            android:name="com.google.android.gms.version"
+162-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Azama\.gradle\caches\transforms-3\5fd96a2630d7756049a5bad5abac1a6d\transformed\play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+163            android:value="@integer/google_play_services_version" />
+163-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Azama\.gradle\caches\transforms-3\5fd96a2630d7756049a5bad5abac1a6d\transformed\play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+164
+165        <provider
+165-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Azama\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+166            android:name="androidx.startup.InitializationProvider"
+166-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Azama\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+167            android:authorities="com.example.final_project.androidx-startup"
+167-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Azama\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+168            android:exported="false" >
+168-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Azama\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+169            <meta-data
+169-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Azama\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+170                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+170-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Azama\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+171                android:value="androidx.startup" />
+171-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Azama\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+172            <meta-data
+172-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Azama\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+173                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+173-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Azama\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+174                android:value="androidx.startup" />
+174-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Azama\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+175            <meta-data
+175-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\Azama\.gradle\caches\transforms-3\35e56d9e00730e4bf741ceb6fb62ac3d\transformed\profileinstaller-1.0.2\AndroidManifest.xml:31:13-33:52
+176                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+176-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\Azama\.gradle\caches\transforms-3\35e56d9e00730e4bf741ceb6fb62ac3d\transformed\profileinstaller-1.0.2\AndroidManifest.xml:32:17-85
+177                android:value="androidx.startup" />
+177-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\Azama\.gradle\caches\transforms-3\35e56d9e00730e4bf741ceb6fb62ac3d\transformed\profileinstaller-1.0.2\AndroidManifest.xml:33:17-49
+178        </provider>
+179
+180        <receiver
+180-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\Azama\.gradle\caches\transforms-3\35e56d9e00730e4bf741ceb6fb62ac3d\transformed\profileinstaller-1.0.2\AndroidManifest.xml:36:9-45:20
+181            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+181-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\Azama\.gradle\caches\transforms-3\35e56d9e00730e4bf741ceb6fb62ac3d\transformed\profileinstaller-1.0.2\AndroidManifest.xml:37:13-76
+182            android:directBootAware="false"
+182-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\Azama\.gradle\caches\transforms-3\35e56d9e00730e4bf741ceb6fb62ac3d\transformed\profileinstaller-1.0.2\AndroidManifest.xml:38:13-44
+183            android:enabled="true"
+183-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\Azama\.gradle\caches\transforms-3\35e56d9e00730e4bf741ceb6fb62ac3d\transformed\profileinstaller-1.0.2\AndroidManifest.xml:39:13-35
+184            android:exported="true"
+184-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\Azama\.gradle\caches\transforms-3\35e56d9e00730e4bf741ceb6fb62ac3d\transformed\profileinstaller-1.0.2\AndroidManifest.xml:40:13-36
+185            android:permission="android.permission.DUMP" >
+185-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\Azama\.gradle\caches\transforms-3\35e56d9e00730e4bf741ceb6fb62ac3d\transformed\profileinstaller-1.0.2\AndroidManifest.xml:41:13-57
+186            <intent-filter>
+186-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\Azama\.gradle\caches\transforms-3\35e56d9e00730e4bf741ceb6fb62ac3d\transformed\profileinstaller-1.0.2\AndroidManifest.xml:42:13-44:29
+187                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+187-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\Azama\.gradle\caches\transforms-3\35e56d9e00730e4bf741ceb6fb62ac3d\transformed\profileinstaller-1.0.2\AndroidManifest.xml:43:17-91
+187-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\Azama\.gradle\caches\transforms-3\35e56d9e00730e4bf741ceb6fb62ac3d\transformed\profileinstaller-1.0.2\AndroidManifest.xml:43:25-88
+188            </intent-filter>
+189        </receiver>
+190    </application>
+191
+192</manifest>

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Summer tires",
+    "image": "https://shiny-diski.com.ua/media/filer_public/8e/06/8e06f95c-b944-47c5-b6e3-8e794e632b6a/let-shin.jpg",
+    "color": "#000000",
+    "data": "Data",
+    "id": 1
+  },
+  {
+    "name": "Winter tires",
+    "image": "https://shiny-diski.com.ua/media/filer_public/8e/06/8e06f95c-b944-47c5-b6e3-8e794e632b6a/let-shin.jpg",
+    "color": "#A76434",
+    "data": "Data",
+    "id": 2
+  },
+  {
+    "name": "All-season tires",
+    "image": "https://shiny-diski.com.ua/media/filer_public/d6/9a/d69a6990-3e93-4530-adb3-5380535f1c40/vsesezon-debika.jpg",
+    "color": "#93877D",
+    "data": "Data",
+    "id": 3
+  },
+  {
+    "name": "Off-road tires",
+    "image": "https://shiny-diski.com.ua/media/filer_public/d1/be/d1be059f-4bb4-4bb4-a9b3-062274e3506c/vnedorog.jpg",
+    "color": "#6B666A",
+    "data": "Data",
+    "id": 4
+  }
+]
